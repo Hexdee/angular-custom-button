@@ -1,0 +1,11 @@
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    min-height: 100vh;
+}
+
+.custom-header {
+    padding: 25px;
+}

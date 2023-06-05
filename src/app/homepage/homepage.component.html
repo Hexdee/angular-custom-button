@@ -1,0 +1,14 @@
+<div class="ui center aligned container">
+    <header>
+        <h2 class="ui header text-center custom-header">Component Interaction</h2>
+    </header>
+
+    <main class="ui container main-container">
+        <app-custom-button [id]="'button1'" [displayText]="'Button 1'"
+            (buttonClick)="showNotification($event)"></app-custom-button>
+        <app-custom-button [id]="'button2'" [displayText]="'Button 2'"
+            (buttonClick)="showNotification($event)"></app-custom-button>
+    </main>
+
+
+</div>
